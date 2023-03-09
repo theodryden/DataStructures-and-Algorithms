@@ -1,0 +1,26 @@
+// Using Arrays
+
+func arrayIntro() {
+  // create the array
+  var array = [1,2,3,4]
+  
+  // defining the type of array
+  var array2 = Array<Int>()
+  array2.append(1)
+  
+  // retrieving a value out of the array
+  let v = array[2]
+  print(v)
+
+  // looping over the array
+  for item in array {
+    print(item)
+  }
+
+  // adding elements to the array
+  array.append(10)
+
+  // removing elements from the last index in array
+  array.removeLast()
+  
+}
